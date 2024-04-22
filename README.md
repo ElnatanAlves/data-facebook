@@ -1,5 +1,5 @@
-### Django Scraper Suite
-É um projeto avançado que combina as poderosas capacidades do framework web Django com as técnicas de scraping de dados web utilizando Selenium e BeautifulSoup. Este projeto foi criado para automatizar a coleta e análise de dados da web, facilitando a integração desses dados em aplicações web robustas gerenciadas pelo Django/Python.
+### Django Scraper Suite <img class="center" width="25" height="25" src="https://img.icons8.com/color/25/selenium-test-automation.png" alt="selenium-test-automation"/>
+É um projeto avançado que combina as capacidades do framework web Django com as técnicas de scraping de dados web utilizando Selenium e BeautifulSoup. Este projeto foi criado para automatizar a coleta e análise de dados da web, facilitando a integração desses dados em aplicações web e aplicativos proprietários® robustas e gerenciadas pelo Django/Python.
 
 ## Começando 🚀
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -25,7 +25,7 @@ Certifique-se de ter o ChromeDriver instalado e atualizado, correspondente à ve
 ## Trabalhando com Django
 Certifique-se de que o servidor Django esteja rodando e que todas as configurações do Django estejam corretas no seu projeto.
 
-### Construído com 🛠️
+## Construído com 🛠️
 <li>Python: Linguagem de programação usada para desenvolver o script.</li>
 <li>Django: Framework web de alto nível para desenvolvimento rápido em Python.</li>
 <li>Selenium: Utilizado para automação de navegador e extração de dados de páginas da web.</li>
@@ -36,3 +36,8 @@ Certifique-se de que o servidor Django esteja rodando e que todas as configuraç
 Até o presente momento o projeto dispõe de apenas um desenvolvedor.
 
 Dev - Trabalho Inicial - Elnatan A.
+
+<img src="https://github.com/ElnatanAlves/scrapping-facebook/assets/156375539/ebf63ac2-ff52-4a61-b0f2-6e7537c8f39c</img" alt="Imagem de teste"/>
+<img src="https://github.com/ElnatanAlves/scrapping-facebook/assets/156375539/06225869-c681-477a-a90c-f0ecfb3cb66d</img alt="Imagem Teste2/>
+
+
