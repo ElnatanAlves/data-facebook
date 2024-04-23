@@ -1,5 +1,5 @@
 ### Django Scraper Suite <img class="center" width="25" height="25" src="https://img.icons8.com/color/25/selenium-test-automation.png" alt="selenium-test-automation"/>
-É um projeto avançado que combina as capacidades do framework web Django com as técnicas de scraping de dados web utilizando Selenium e BeautifulSoup. Este projeto foi criado para automatizar a coleta e análise de dados da web, facilitando a integração desses dados em aplicações web e aplicativos proprietários® robustas e gerenciadas pelo Django/Python.
+É um projeto avançado que combina as capacidades do framework web Django com as técnicas de scraping de dados web utilizando Selenium e BeautifulSoup. Este projeto foi criado para automatizar a coleta e análise de dados especificos da web, facilitando a integração desses dados em aplicações web e aplicativos proprietários® robustos e gerenciadas pelo Django/Flask/Python.
 
 ## Começando 🚀
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
