@@ -5,7 +5,7 @@
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 ## Pré-requisitos 📋
-Você precisará ter o Python instalado em seu sistema, bem como seus modulos e dependencias. (IDE PyCharm e Conda 100% - VSCODE 95% Compatibility)
+Você precisará ter o Python instalado em seu sistema, bem como seus modulos e dependencias. **(IDE PyCharm e Conda 100% - VSCODE 95% Compatibility)**
 
 ## Instalação 🔧
 Clone o repositório e execute o seguinte comando na raiz do projeto:
