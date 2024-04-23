@@ -33,9 +33,9 @@ Certifique-se de que o servidor Django esteja rodando e que todas as configuraç
 <li>Pandas: Biblioteca de Python utilizada para manipulação e análise de dados.</li>
 
 ## ✒️ Autores
-Até o presente momento o projeto dispõe de apenas um desenvolvedor.
-
-Dev - Trabalho Inicial - Elnatan A.
+- Elnatan A.
+   
+**Que a força esteja com vocês!** <img width="17" height="17" src="https://img.icons8.com/ios/100/stormtrooper.png" alt="stormtrooper"/>
 
 <img src="https://github.com/ElnatanAlves/scrapping-facebook/assets/156375539/ebf63ac2-ff52-4a61-b0f2-6e7537c8f39c</img" alt="Imagem de teste"/>
 <img src="https://github.com/ElnatanAlves/scrapping-facebook/assets/156375539/06225869-c681-477a-a90c-f0ecfb3cb66d</img alt="Imagem Teste2/>
