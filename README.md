@@ -33,26 +33,24 @@ Se a coluna "Contato_Comercial" não existir, ela será criada automaticamente.
 
 ## 🚀 Como Usar
 
-Configure seu ambiente:
+- Configure seu ambiente:
 
-Preencha os seguintes campos no código:
+- Preencha os seguintes campos no código:
 
-excel_file = 'NOME DA SUA PLANILHA.xlsx'
+- excel_file = 'NOME DA SUA PLANILHA.xlsx'
 
-username = 'LOGIN DO FACEBOOK'
+- username = 'LOGIN DO FACEBOOK'
 
-password = 'SENHA DO FACEBOOK'
+- password = 'SENHA DO FACEBOOK'
 
-main_xpath = 'XPATH DA SUA PAGINA'
+- main_xpath = 'XPATH DA SUA PAGINA'
 
-alternative_xpaths = ['XPATH ALTERNATIVO']
+- alternative_xpaths = ['XPATH ALTERNATIVO']
 
 1. Execute o script:
 <img width="766" height="44" alt="image" src="https://github.com/user-attachments/assets/da9bcd3c-3ed2-4237-9a2c-7790d50a58fe" />
 
-1.1 Resultado:
-
-A planilha será atualizada com uma nova coluna chamada Contato_Comercial contendo os números extraídos (ou mensagem de erro caso não seja encontrado).
+Resultado: A planilha será atualizada com uma nova coluna chamada Contato_Comercial contendo os números extraídos (ou mensagem de erro caso não seja encontrado).
 
 ## ⚠️ Atenção
 
@@ -66,11 +64,11 @@ A planilha será atualizada com uma nova coluna chamada Contato_Comercial conten
 
 ## 📌 Observações Finais
 
-O script está preparado para lidar com páginas que não carregam o número de telefone diretamente via XPATH, utilizando regex e parsing do HTML como fallback.
+- O script está preparado para lidar com páginas que não carregam o número de telefone diretamente via XPATH, utilizando regex e parsing do HTML como fallback.
 
-Ideal para pequenas automações ou uso em bases limitadas.
+- Ideal para pequenas automações ou uso em bases limitadas.
 
-Revise e ajuste os XPATHs conforme necessário para garantir a precisão da extração.
+- Revise e ajuste os XPATHs conforme necessário para garantir a precisão da extração.
 
 
 ## ✒️ Autores
