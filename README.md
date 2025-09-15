@@ -1,36 +1,77 @@
-### Django Scraper Suite <img class="center" width="25" height="25" src="https://img.icons8.com/color/25/selenium-test-automation.png" alt="selenium-test-automation"/>
-É um projeto avançado que combina as capacidades do framework web Django com as técnicas de scraping de dados web utilizando Selenium e BeautifulSoup. Este projeto foi criado para automatizar a coleta e análise de dados especificos da web, facilitando a integração desses dados em aplicações web e aplicativos proprietários® robustos e gerenciadas pelo Django/Flask/Python.
+### 📞 Extração de Contato Comercial de Páginas do Facebook com Selenium
 
-### Começando 🚀
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+Este script automatiza o processo de extração de números de telefone comercial a partir de links de páginas do Facebook presentes em uma planilha Excel. Utilizando Selenium, BeautifulSoup e Pandas, ele acessa cada link, tenta localizar o número de contato via XPATH ou, alternativamente, via parsing do HTML.
 
-### Pré-requisitos 📋
-Você precisará ter o Python instalado em seu sistema, bem como seus modulos e dependencias. **(IDE PyCharm e Conda 100% - VSCODE 95% Compatibility)**
+## 🔧 Funcionalidades
 
-### Instalação 🔧
-Clone o repositório e execute o seguinte comando na raiz do projeto:
+- Leitura de planilha Excel com links de páginas do Facebook.
 
-pip install django pandas selenium beautifulsoup4
+- Login automático no Facebook usando Selenium.
 
-### Configurando o Django
-Para configurar o Django para seu projeto, execute:
+- Extração de números de telefone utilizando XPATHs fornecidos.
 
-django-admin startproject meu_projeto
-cd meu_projeto
-python manage.py runserver
+- Parsing alternativo do HTML via BeautifulSoup, caso o número não seja encontrado por XPATH.
 
-Configurando o Selenium
-Certifique-se de ter o ChromeDriver instalado e atualizado, correspondente à versão do seu navegador Chrome. O ChromeDriver é necessário para que o Selenium funcione corretamente.
+- Atualização da planilha com os contatos extraídos.
 
-### Trabalhando com Django
-Certifique-se de que o servidor Django esteja rodando e que todas as configurações do Django estejam corretas no seu projeto.
 
-### Construído com 🛠️
-<li>Python: Linguagem de programação usada para desenvolver o script.</li>
-<li>Django: Framework web de alto nível para desenvolvimento rápido em Python.</li>
-<li>Selenium: Utilizado para automação de navegador e extração de dados de páginas da web.</li>
-<li>BeautifulSoup: Usado para análise de dados HTML e extração de dados.</li>
-<li>Pandas: Biblioteca de Python utilizada para manipulação e análise de dados.</li>
+## 🧰 Requisitos
+
+- Python 3.8+
+
+- Google Chrome instalado
+
+- Chromedriver compatível com a versão do seu navegador
+
+## 📦 Bibliotecas necessárias
+<img width="766" height="44" alt="image" src="https://github.com/user-attachments/assets/bedcd98c-e876-4662-a783-3b74cf313f97" />
+
+## 📁 Estrutura Esperada da Planilha
+
+A planilha deve conter ao menos uma coluna chamada "Facebook" com os links das páginas.
+Se a coluna "Contato_Comercial" não existir, ela será criada automaticamente.
+
+## 🚀 Como Usar
+
+Configure seu ambiente:
+
+Preencha os seguintes campos no código:
+
+excel_file = 'NOME DA SUA PLANILHA.xlsx'
+
+username = 'LOGIN DO FACEBOOK'
+
+password = 'SENHA DO FACEBOOK'
+
+main_xpath = 'XPATH DA SUA PAGINA'
+
+alternative_xpaths = ['XPATH ALTERNATIVO']
+
+1. Execute o script:
+<img width="766" height="44" alt="image" src="https://github.com/user-attachments/assets/da9bcd3c-3ed2-4237-9a2c-7790d50a58fe" />
+
+1.1 Resultado:
+
+A planilha será atualizada com uma nova coluna chamada Contato_Comercial contendo os números extraídos (ou mensagem de erro caso não seja encontrado).
+
+## ⚠️ Atenção
+
+- O Facebook pode bloquear ou limitar acessos automatizados. Use com cautela e respeite os Termos de Uso do Facebook.
+
+- Certifique-se de que o login não exige autenticação em duas etapas.
+
+- O uso de scraping em plataformas como o Facebook pode ser frágil, pois qualquer mudança na estrutura da página pode quebrar o script.
+
+- Este projeto foi criado com redundância proposital para maximizar a taxa de sucesso na extração.
+
+## 📌 Observações Finais
+
+O script está preparado para lidar com páginas que não carregam o número de telefone diretamente via XPATH, utilizando regex e parsing do HTML como fallback.
+
+Ideal para pequenas automações ou uso em bases limitadas.
+
+Revise e ajuste os XPATHs conforme necessário para garantir a precisão da extração.
+
 
 ## ✒️ Autores
 - Elnatan A.
